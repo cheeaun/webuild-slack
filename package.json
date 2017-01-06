@@ -1,0 +1,17 @@
+{
+	"name": "webuild-slack",
+	"version": "1.0.0",
+	"description": "Slash command for webuild.sg",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"author": "Lim Chee Aun <cheeaun@gmail.com>",
+	"dependencies": {
+		"axios": "^0.13.1",
+		"ws": "^1.1.1",
+		"request": "^2.79.0",
+		"synchronize": "^0.9.14",
+		"httpdispatcher": "*",
+		"moment": "^2.17.1"
+	}
+}
